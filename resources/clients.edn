@@ -1,0 +1,12 @@
+[{ :id "Customer_1"
+ :name "Customer 1 Name"
+ :address-line-1 "Road"
+ :address-line-2 "London, SW11"
+ :phone "phone"}
+
+{ :id "Customer_2"
+ :name "Customer 2 Name"
+ :address-line-1 "Road"
+ :address-line-2 "London, SW11"
+ :phone "phone"}
+]

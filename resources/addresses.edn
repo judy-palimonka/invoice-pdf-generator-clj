@@ -1,0 +1,15 @@
+;business addresses
+[{:address-line-1 "first line"
+ :address-line-2 "second line "
+ :postcode       "postcode"
+ :id "business_address_1"
+ }
+
+
+{:address-line-1 "first line"
+ :address-line-2 "second line "
+ :postcode       "postcode"
+ :id "business_address_2"
+ }
+ ]
+
