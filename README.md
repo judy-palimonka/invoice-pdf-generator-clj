@@ -1,13 +1,11 @@
 # invoice-generator-clj
-Generates invoices and business statements in PDF based on inputted data.
-My first ad-hoc Clojure project written back in 2015 
+Generates invoices and business statements in PDF based on data from resources. 
 
 ## Usage
-Look at files in resources to know what kind of data points are accepted. Sample invoices can be created using the example data already in the files. The files are as follows:
-invoice - each item in :invoices represents a single invoice you want to output in pdf
-client - the list of clients (ensure ID match above)
-addresses - your business address 
-Enter your own invoice, client, business address data in resources and run as below.
+Look at files in resources to get the gist of data points that are accepted. The files are as follows:
+- addresses.edn - your business address
+- clients.edn - your list of clients 
+- invoices.edn - each item in :invoices represents a single invoice you want to output in PDF (ensure ID of address and customers match IDs in above files)
 
 ## Run
 
@@ -15,4 +13,18 @@ Enter your own invoice, client, business address data in resources and run as be
 2. From command line:
 ```lein run```
     
-PDFs will appear in project directory 
+This will create new folders 'invoices' and 'business-statements' where the PDFs will be written. 
+
+## Notes 
+This wasw my first ad-hoc Clojure project written back in 2015 to help out a friend who was behind on paperwork and needed to provide a summary of business records to clients / accountant. This was a quick and dirty thing so excuse messy and poorly structured code.  Will improve soon. 
+
+## Planned Improvements
+# Features
+- Read from CSV
+- Provide various PDF templates
+
+# Code Refactor
+- Flatten resource EDNs
+- Move PDF mark-up out of clj file into an EDN config
+- Add tests
+- Allow for input arguments 
