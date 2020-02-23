@@ -1,13 +1,13 @@
 # invoice-generator-clj
-Generates invoices and business statements in PDF based on data from resources. 
+Generates invoices and business statements in PDF based on files provided in resources folder. 
 
 ## Usage
-Look at files in resources to get the gist of data points that are accepted. The files are as follows:
+Look at files in resources to get the gist of data points. The files are as follows:
 - addresses.edn - your business address
 - clients.edn - your list of clients 
-- invoices.edn - each item in :invoices represents a single invoice you want to output in PDF. 
+- invoices.edn - each item in :invoices represents a single invoice you want to output in PDF
 
-Ensure ID of address and customers provided in invoices file match those provided in addresses/clients)
+NB. Ensure ID of address and customer provided in invoices file match those provided in addresses/clients.
 
 ## Run
 
@@ -17,10 +17,7 @@ Ensure ID of address and customers provided in invoices file match those provide
     
 This will create new folders 'invoices' and 'business-statements' where the PDFs will be written. 
 
-## Notes 
-This wasw my first ad-hoc Clojure project written back in 2015 to help out a friend who was behind on paperwork and needed to provide a summary of business records to clients / accountant. This was a quick and dirty thing so excuse messy and poorly structured code.  Will improve soon. 
-
-### Planned Improvements
+## Planned Improvements
 ### Features
 - Read from CSV
 - Provide more PDF templates
@@ -30,3 +27,6 @@ This wasw my first ad-hoc Clojure project written back in 2015 to help out a fri
 - Move PDF mark-up out of clj file into an EDN config
 - Add tests
 - Allow for input arguments 
+
+## Notes 
+This was my first ad-hoc Clojure project written back in 2015 to help out a self-employed friend who was behind on paperwork. This was a quick and dirty thing so excuse messy and poorly structured code. Improvemnets coming soon
