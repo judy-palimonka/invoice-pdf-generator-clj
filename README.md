@@ -18,12 +18,12 @@ This will create new folders 'invoices' and 'business-statements' where the PDFs
 ## Notes 
 This wasw my first ad-hoc Clojure project written back in 2015 to help out a friend who was behind on paperwork and needed to provide a summary of business records to clients / accountant. This was a quick and dirty thing so excuse messy and poorly structured code.  Will improve soon. 
 
-## Planned Improvements
-# Features
+### Planned Improvements
+### Features
 - Read from CSV
 - Provide various PDF templates
 
-# Code Refactor
+### Code Refactor
 - Flatten resource EDNs
 - Move PDF mark-up out of clj file into an EDN config
 - Add tests
