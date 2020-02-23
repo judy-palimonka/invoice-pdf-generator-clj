@@ -12,9 +12,3 @@ Enter invoice, client, business address data in resources and run. Make sure IDs
 ```lein run```
     
 PDFs will appear in project directory 
-
-
-Copyright © 2015
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
